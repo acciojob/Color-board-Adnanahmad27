@@ -18,6 +18,6 @@ function onMouse(e) {
 	}
 	e.target.style.backgroundColor = generateColor;
 	setTimeout(() => {
-		e.target.style.backgroundColor = '#333333';
+		e.target.style.backgroundColor = '#1d1d1d';
 	},1000);
 }
